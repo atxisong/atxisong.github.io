@@ -14242,6 +14242,11 @@ pre, code { font-family: 'Source Code Pro', monospace; font-weight: normal; font
     padding: 5px;
 }
 
+.socialbtns, .socialbtns ul, .socialbtns li {
+  margin: 0;
+  padding: 2px;
+}
+
 .socialbtns li {
     list-style: none outside none;
     display: inline-block;
