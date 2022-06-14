@@ -14237,14 +14237,16 @@ pre, code { font-family: 'Source Code Pro', monospace; font-weight: normal; font
 /*minimum social media icons*/
 @import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
 
-.socialbtns { display: block; font-size: 35px; 
+.socialbtns { 
+    display: block; 
+    font-size: 35px; 
     margin: 0;
     padding: 5px;
 }
 
 .socialbtns, .socialbtns ul, .socialbtns li {
   margin: 0;
-  padding: 2px;
+  padding: 1px;
 }
 
 .socialbtns li {
