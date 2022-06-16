@@ -5047,8 +5047,7 @@ table.table a.btn.btn-black { color: #fff; }
 @media (min-width: 600px) { .navbar.scrolling-navbar { transition: background 0.5s ease-in-out, padding 0.5s ease-in-out; padding-top: 12px; padding-bottom: 12px; }
   .navbar.scrolling-navbar .navbar-nav > li { transition-duration: 1s; }
   .navbar.scrolling-navbar.top-nav-collapse { padding-top: 5px; padding-bottom: 5px; } }
-/*@media (min-width: 400px) and (max-width: 767px), (min-width: 800px) and (max-width: 850px) { .navbar.fixed-top .navbar-collapse, .navbar.sticky-top .navbar-collapse { max-height: 340px; overflow-x: hidden; overflow-y: auto; } }*/
-@media (min-width: 400px) and (max-width: 1040px), (min-width: 800px) and (max-width: 2080px) { .navbar.fixed-top .navbar-collapse, .navbar.sticky-top .navbar-collapse { max-height: 340px; overflow-x: hidden; overflow-y: auto; } }
+@media (min-width: 400px) and (max-width: 767px), (min-width: 800px) and (max-width: 850px) { .navbar.fixed-top .navbar-collapse, .navbar.sticky-top .navbar-collapse { max-height: 340px; overflow-x: hidden; overflow-y: auto; } }
 
 .pagination .page-item.active .page-link { box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); transition: all 0.2s linear; border-radius: 0.125rem; background-color: #4285f4; color: #fff; }
 .pagination .page-item.active .page-link:hover { background-color: #4285f4; }
@@ -7867,8 +7866,7 @@ table.table a.btn.btn-black { color: #fff; }
 @media (min-width: 600px) { .navbar.scrolling-navbar { transition: background 0.5s ease-in-out, padding 0.5s ease-in-out; padding-top: 12px; padding-bottom: 12px; }
   .navbar.scrolling-navbar .navbar-nav > li { transition-duration: 1s; }
   .navbar.scrolling-navbar.top-nav-collapse { padding-top: 5px; padding-bottom: 5px; } }
-/*@media (min-width: 400px) and (max-width: 767px), (min-width: 800px) and (max-width: 850px) { .navbar.fixed-top .navbar-collapse, .navbar.sticky-top .navbar-collapse { max-height: 340px; overflow-x: hidden; overflow-y: auto; } }*/
-@media (min-width: 400px) and (max-width: 1040px), (min-width: 800px) and (max-width: 2080px) { .navbar.fixed-top .navbar-collapse, .navbar.sticky-top .navbar-collapse { max-height: 340px; overflow-x: hidden; overflow-y: auto; } }
+@media (min-width: 400px) and (max-width: 767px), (min-width: 800px) and (max-width: 850px) { .navbar.fixed-top .navbar-collapse, .navbar.sticky-top .navbar-collapse { max-height: 340px; overflow-x: hidden; overflow-y: auto; } }
 
 .pagination .page-item.active .page-link { box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); transition: all 0.2s linear; border-radius: 0.125rem; background-color: #4285f4; color: #fff; }
 .pagination .page-item.active .page-link:hover { background-color: #4285f4; }
@@ -10686,8 +10684,7 @@ table.table a.btn.btn-black { color: #fff; }
 @media (min-width: 600px) { .navbar.scrolling-navbar { transition: background 0.5s ease-in-out, padding 0.5s ease-in-out; padding-top: 12px; padding-bottom: 12px; }
   .navbar.scrolling-navbar .navbar-nav > li { transition-duration: 1s; }
   .navbar.scrolling-navbar.top-nav-collapse { padding-top: 5px; padding-bottom: 5px; } }
-/*@media (min-width: 400px) and (max-width: 767px), (min-width: 800px) and (max-width: 850px) { .navbar.fixed-top .navbar-collapse, .navbar.sticky-top .navbar-collapse { max-height: 340px; overflow-x: hidden; overflow-y: auto; } }*/
-@media (min-width: 400px) and (max-width: 1040px), (min-width: 800px) and (max-width: 2080px) { .navbar.fixed-top .navbar-collapse, .navbar.sticky-top .navbar-collapse { max-height: 340px; overflow-x: hidden; overflow-y: auto; } }
+@media (min-width: 400px) and (max-width: 767px), (min-width: 800px) and (max-width: 850px) { .navbar.fixed-top .navbar-collapse, .navbar.sticky-top .navbar-collapse { max-height: 340px; overflow-x: hidden; overflow-y: auto; } }
 
 .pagination .page-item.active .page-link { box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); transition: all 0.2s linear; border-radius: 0.125rem; background-color: #4285f4; color: #fff; }
 .pagination .page-item.active .page-link:hover { background-color: #4285f4; }
@@ -13642,8 +13639,7 @@ table.table a.btn.btn-black { color: #fff; }
 @media (min-width: 600px) { .navbar.scrolling-navbar { transition: background 0.5s ease-in-out, padding 0.5s ease-in-out; padding-top: 12px; padding-bottom: 12px; }
   .navbar.scrolling-navbar .navbar-nav > li { transition-duration: 1s; }
   .navbar.scrolling-navbar.top-nav-collapse { padding-top: 5px; padding-bottom: 5px; } }
-/*@media (min-width: 400px) and (max-width: 767px), (min-width: 800px) and (max-width: 850px) { .navbar.fixed-top .navbar-collapse, .navbar.sticky-top .navbar-collapse { max-height: 340px; overflow-x: hidden; overflow-y: auto; } }*/
-@media (min-width: 400px) and (max-width: 1040px), (min-width: 800px) and (max-width: 2080px) { .navbar.fixed-top .navbar-collapse, .navbar.sticky-top .navbar-collapse { max-height: 340px; overflow-x: hidden; overflow-y: auto; } }
+@media (min-width: 400px) and (max-width: 767px), (min-width: 800px) and (max-width: 850px) { .navbar.fixed-top .navbar-collapse, .navbar.sticky-top .navbar-collapse { max-height: 340px; overflow-x: hidden; overflow-y: auto; } }
 
 .pagination .page-item.active .page-link { box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); transition: all 0.2s linear; border-radius: 0.125rem; background-color: #4285f4; color: #fff; }
 .pagination .page-item.active .page-link:hover { background-color: #4285f4; }
