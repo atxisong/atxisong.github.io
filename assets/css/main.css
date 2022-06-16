@@ -11220,7 +11220,8 @@ progress::-moz-progress-bar { background-color: #CA1F7B; }
 .bibliography li .author a { color: #3c4858; border-bottom: 1px dashed; }
 .bibliography li .author a:hover { border-bottom-style: solid; text-decoration: none; }
 
-nobr > em { font-weight: bold; font-style: normal; color: #039be5; }
+/*nobr > em { font-weight: bold; font-style: normal; color: #039be5; }*/
+nobr > em { font-weight: bold; font-style: normal; color: #CA1F7B; }
 
 body { padding-top: 56px; padding-bottom: 70px; }
 
@@ -14191,7 +14192,8 @@ progress::-moz-progress-bar { background-color: #CA1F7B; }
 .bibliography li .author a { color: #3c4858; border-bottom: 1px dashed; }
 .bibliography li .author a:hover { border-bottom-style: solid; text-decoration: none; }
 
-nobr > em { font-weight: bold; font-style: normal; color: #039be5; }
+/*nobr > em { font-weight: bold; font-style: normal; color: #039be5; }*/
+nobr > em { font-weight: bold; font-style: normal; color: #CA1F7B; }
 
 pre, code { font-family: 'Source Code Pro', monospace; font-weight: normal; font-size: 13px; line-height: 1.3em; }
 
