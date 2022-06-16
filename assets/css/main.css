@@ -11192,10 +11192,8 @@ progress { /* Reset the appearance */ -webkit-appearance: none; -moz-appearance:
 
 progress::-webkit-progress-bar { background-color: transparent; }
 
-/*progress::-webkit-progress-value { background-color: #039be5; }*/
-/*progress::-moz-progress-bar { background-color: #039be5; }*/
-
 progress::-webkit-progress-value { background-color: #CA1F7B; }
+
 progress::-moz-progress-bar { background-color: #CA1F7B; }
 
 .progress-container { background-color: transparent; }
@@ -14156,19 +14154,16 @@ a:hover { text-decoration: none; }
 
 .bibliography .abbr a:hover { background: #ff4444 !important; }
 
-progress { /* Reset the appearance */ -webkit-appearance: none; -moz-appearance: none; appearance: none; /* Get rid of the default border in Firefox/Opera. */ border: none; /* Progress bar container for Firefox/IE10+ */ background-color: transparent; /* Progress bar value for IE10+ */ color: #CA1F7B/*#039be5*/; }
+progress { /* Reset the appearance */ -webkit-appearance: none; -moz-appearance: none; appearance: none; /* Get rid of the default border in Firefox/Opera. */ border: none; /* Progress bar container for Firefox/IE10+ */ background-color: transparent; /* Progress bar value for IE10+ */ color: #CA1F7B; }
 
 progress::-webkit-progress-bar { background-color: transparent; }
 
-/*progress::-webkit-progress-value { background-color: #039be5; }*/
-/*progress::-moz-progress-bar { background-color: #039be5; }*/
-
 progress::-webkit-progress-value { background-color: #CA1F7B; }
+
 progress::-moz-progress-bar { background-color: #CA1F7B; }
 
 .progress-container { background-color: transparent; }
 
-/*.progress-bar { background-color: #039be5; }*/
 .progress-bar { background-color: #CA1F7B; }
 
 .bibliography-year { color: #ddd; text-align: right; float: right; }
