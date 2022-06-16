@@ -26,6 +26,8 @@ var theImages = new Array()
 
 theImages[0] = 'assets/img/song1.jpg'
 theImages[1] = 'assets/img/song1.jpg'
+theCredits[0] = 'xisong'
+theCredits[1] = 'xisong'
 
 // do not edit anything below this line
 
@@ -39,6 +41,8 @@ for (i = 0; i < p; i++){
 var whichImage = Math.floor(Math.random()*(p));
 function showImage(){
 document.write('<img class="profile-img img-responsive" src="'+theImages[whichImage]+'" align="middle" height="230">');
+document.write('<p><font color="gray" size="1">Photo credit: '+theCredits[whichImage]+'</font></p>');
+}
 }
 
 //  End -->
