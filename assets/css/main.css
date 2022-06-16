@@ -2659,10 +2659,8 @@ a.text-dark:hover, a.text-dark:focus { color: #121416 !important; }
   p, h2, h3 { orphans: 3; widows: 3; }
   h2, h3 { page-break-after: avoid; }
   @page { size: a3; }
-  /*body { min-width: 992px !important; }*/
-  /*.container { min-width: 992px !important; }*/
-  body { min-width: 2080px !important; }
-  .container { min-width: 2080px !important; }
+  body { min-width: 992px !important; }
+  .container { min-width: 992px !important; }
   .navbar { display: none; }
   .badge { border: 1px solid #000; }
   .table { border-collapse: collapse !important; }
@@ -11217,8 +11215,7 @@ nobr > em { font-weight: bold; font-style: normal; color: #CA1F7B; }
 body { padding-top: 56px; padding-bottom: 70px; }
 
 .navbar { margin-right: auto; margin-left: auto; max-width: 100%; }
-/*.navbar .container { margin-right: auto; margin-left: auto; max-width: 800px; }*/
-.navbar .container { margin-right: auto; margin-left: auto; max-width: 2080px; }
+.navbar .container { margin-right: auto; margin-left: auto; max-width: 800px; }
 
 .container-fluid, .content { margin-right: auto; margin-left: auto; max-width: 800px; }
 
