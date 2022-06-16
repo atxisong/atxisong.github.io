@@ -14217,7 +14217,7 @@ pre, code { font-family: 'Source Code Pro', monospace; font-weight: normal; font
 .hljs-strong { font-weight: bold; }
 
 /*minimum social media icons*/
-@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+/*@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
 
 .socialbtns { 
     display: block; 
@@ -14263,7 +14263,7 @@ pre, code { font-family: 'Source Code Pro', monospace; font-weight: normal; font
   -moz-transition: all ease-out 0.5s;
   -webkit-transition: all ease-out 0.5s;
   -o-transition: all ease-out 0.5s;
-}
+}*/
 
 /*.socialbtns .fa:hover {
     color: #000;
