@@ -47,8 +47,8 @@ sub { bottom: -.25em; }
 
 sup { top: -.5em; }
 
-a { color: #CA1F7B; text-decoration: none; background-color: transparent; }
-a:hover { color: #CA1F7B; text-decoration: none; }
+a { color: #007bff; text-decoration: none; background-color: transparent; }
+a:hover { color: #0056b3; text-decoration: underline; }
 
 a:not([href]):not([tabindex]) { color: inherit; text-decoration: none; }
 a:not([href]):not([tabindex]):hover, a:not([href]):not([tabindex]):focus { color: inherit; text-decoration: none; }
@@ -1283,7 +1283,7 @@ a.badge-dark:focus, a.badge-dark.focus { outline: 0; box-shadow: 0 0 0 0.2rem rg
   to { background-position: 0 0; } }
 .progress { display: flex; height: 1rem; overflow: hidden; font-size: 0.75rem; background-color: #e9ecef; border-radius: 0.25rem; }
 
-.progress-bar { display: flex; flex-direction: column; justify-content: center; color: #fff; text-align: center; white-space: nowrap; background-color: #CA1F7B; transition: width 0.6s ease; }
+.progress-bar { display: flex; flex-direction: column; justify-content: center; color: #fff; text-align: center; white-space: nowrap; background-color: #007bff; transition: width 0.6s ease; }
 @media (prefers-reduced-motion: reduce) { .progress-bar { transition: none; } }
 
 .progress-bar-striped { background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent); background-size: 1rem 1rem; }
@@ -2748,7 +2748,7 @@ a.text-dark:hover, a.text-dark:focus { color: #121416 !important; }
 
 .red.darken-3 { background-color: #c62828 !important; }
 
-.red.darken-4 { background-color: #ea7bb6 !important; }
+.red.darken-4 { background-color: #b71c1c !important; }
 
 .red.accent-1 { background-color: #ff8a80 !important; }
 
@@ -2958,7 +2958,7 @@ a.text-dark:hover, a.text-dark:focus { color: #121416 !important; }
 
 .rgba-light-blue-strong, .rgba-light-blue-strong:after { background-color: rgba(3, 169, 244, 0.7); }
 
-.light-blue.darken-1 { background-color: #CA1F7B !important; }
+.light-blue.darken-1 { background-color: #039be5 !important; }
 
 .light-blue.darken-2 { background-color: #0288d1 !important; }
 
@@ -3102,7 +3102,7 @@ a.text-dark:hover, a.text-dark:focus { color: #121416 !important; }
 
 .rgba-light-green-strong, .rgba-light-green-strong:after { background-color: rgba(139, 195, 74, 0.7); }
 
-.light-green.darken-1 { background-color: #039be5 !important; }
+.light-green.darken-1 { background-color: #7cb342 !important; }
 
 .light-green.darken-2 { background-color: #689f38 !important; }
 
@@ -3490,9 +3490,9 @@ a.text-dark:hover, a.text-dark:focus { color: #121416 !important; }
 
 .disabled, :disabled { pointer-events: none !important; }
 
-a { cursor: pointer; text-decoration: none; color: #CA1F7B; transition: all 0.2s ease-in-out; }
-a:hover { text-decoration: none; color: #CA1F7B; transition: all 0.2s ease-in-out; }
-a.disabled:hover, a:disabled:hover { color: #CA1F7B; }
+a { cursor: pointer; text-decoration: none; color: #007bff; transition: all 0.2s ease-in-out; }
+a:hover { text-decoration: none; color: #0056b3; transition: all 0.2s ease-in-out; }
+a.disabled:hover, a:disabled:hover { color: #007bff; }
 
 a:not([href]):not([tabindex]), a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover { color: inherit; text-decoration: none; }
 
@@ -5561,7 +5561,7 @@ ul.stepper li.active a .label, ul.stepper li.completed a .label { font-weight: 6
 
 .red.darken-3 { background-color: #c62828 !important; }
 
-.red.darken-4 { background-color: #ea7bb6 !important; }
+.red.darken-4 { background-color: #b71c1c !important; }
 
 .red.accent-1 { background-color: #ff8a80 !important; }
 
@@ -5915,7 +5915,7 @@ ul.stepper li.active a .label, ul.stepper li.completed a .label { font-weight: 6
 
 .rgba-light-green-strong, .rgba-light-green-strong:after { background-color: rgba(139, 195, 74, 0.7); }
 
-.light-green.darken-1 { background-color: #039be5 !important; }
+.light-green.darken-1 { background-color: #7cb342 !important; }
 
 .light-green.darken-2 { background-color: #689f38 !important; }
 
@@ -6303,9 +6303,9 @@ ul.stepper li.active a .label, ul.stepper li.completed a .label { font-weight: 6
 
 .disabled, :disabled { pointer-events: none !important; }
 
-a { cursor: pointer; text-decoration: none; color: #CA1F7B; transition: all 0.2s ease-in-out; }
-a:hover { text-decoration: none; color: #CA1F7B; transition: all 0.2s ease-in-out; }
-a.disabled:hover, a:disabled:hover { color: #CA1F7B; }
+a { cursor: pointer; text-decoration: none; color: #007bff; transition: all 0.2s ease-in-out; }
+a:hover { text-decoration: none; color: #0056b3; transition: all 0.2s ease-in-out; }
+a.disabled:hover, a:disabled:hover { color: #007bff; }
 
 a:not([href]):not([tabindex]), a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover { color: inherit; text-decoration: none; }
 
@@ -8374,7 +8374,7 @@ ul.stepper li.active a .label, ul.stepper li.completed a .label { font-weight: 6
 
 .red.darken-3 { background-color: #c62828 !important; }
 
-.red.darken-4 { background-color: #ea7bb6 !important; }
+.red.darken-4 { background-color: #b71c1c !important; }
 
 .red.accent-1 { background-color: #ff8a80 !important; }
 
@@ -8728,7 +8728,7 @@ ul.stepper li.active a .label, ul.stepper li.completed a .label { font-weight: 6
 
 .rgba-light-green-strong, .rgba-light-green-strong:after { background-color: rgba(139, 195, 74, 0.7); }
 
-.light-green.darken-1 { background-color: #039be5 !important; }
+.light-green.darken-1 { background-color: #7cb342 !important; }
 
 .light-green.darken-2 { background-color: #689f38 !important; }
 
@@ -9116,9 +9116,9 @@ ul.stepper li.active a .label, ul.stepper li.completed a .label { font-weight: 6
 
 .disabled, :disabled { pointer-events: none !important; }
 
-a { cursor: pointer; text-decoration: none; color: #CA1F7B; transition: all 0.2s ease-in-out; }
-a:hover { text-decoration: none; color: #CA1F7B; transition: all 0.2s ease-in-out; }
-a.disabled:hover, a:disabled:hover { color: #CA1F7B; }
+a { cursor: pointer; text-decoration: none; color: #007bff; transition: all 0.2s ease-in-out; }
+a:hover { text-decoration: none; color: #0056b3; transition: all 0.2s ease-in-out; }
+a.disabled:hover, a:disabled:hover { color: #007bff; }
 
 a:not([href]):not([tabindex]), a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover { color: inherit; text-decoration: none; }
 
@@ -11123,7 +11123,7 @@ $nav-height:                    56px;
 /* Set theme color *************************/
 /* #b71c1c; */
 /************************************************************/
-.badge-notify { background: #039be5 !important; }
+.badge-notify { background: #7cb342 !important; }
 
 body { color: #3c4858; background-color: #fdfdfd; -webkit-text-size-adjust: 100%; }
 
@@ -11134,19 +11134,18 @@ body { color: #3c4858; background-color: #fdfdfd; -webkit-text-size-adjust: 100%
 .navbar a { color: #3c4858 !important; }
 
 footer a { color: #fafafa; }
-footer a:hover { color: #039be5; }
+footer a:hover { color: #7cb342; }
 
 .title { font-family: "Roboto Slab", "Times New Roman", serif; }
 
-/*a { color: #039be5; text-decoration: none; }*/
-a { color: #CA1F7B; text-decoration: none; }
+a { color: #7cb342; text-decoration: none; }
 a:hover { text-decoration: none; }
 
 .plain-link .fa { color: #747373; }
 
 .navbar-brand a { color: #f8f9fa !important; }
 
-.navbar-active a { color: #CA1F7B !important; }
+.navbar-active a { color: #7cb342 !important; }
 
 .arrow-icon { color: #90a4ae; background: #90a4ae; background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; display: initial; }
 .arrow-icon:hover { color: #cbd4d9; background: #cbd4d9; background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; text-decoration: none; }
@@ -11172,21 +11171,21 @@ a:hover { text-decoration: none; }
 .wp-icon { color: #21759b; background: #21759b; background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; display: initial; }
 .wp-icon:hover { color: #4aacd8; background: #4aacd8; background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; text-decoration: none; }
 
-.cv h3 { color: #039be5; }
+.cv h3 { color: #7cb342; }
 
 .bibliography .abbr a:hover { background: #ff4444 !important; }
 
-progress { /* Reset the appearance */ -webkit-appearance: none; -moz-appearance: none; appearance: none; /* Get rid of the default border in Firefox/Opera. */ border: none; /* Progress bar container for Firefox/IE10+ */ background-color: transparent; /* Progress bar value for IE10+ */ color: #CA1F7B/*#039be5*/; }
+progress { /* Reset the appearance */ -webkit-appearance: none; -moz-appearance: none; appearance: none; /* Get rid of the default border in Firefox/Opera. */ border: none; /* Progress bar container for Firefox/IE10+ */ background-color: transparent; /* Progress bar value for IE10+ */ color: #7cb342; }
 
 progress::-webkit-progress-bar { background-color: transparent; }
 
-progress::-webkit-progress-value { background-color: #CA1F7B; }
+progress::-webkit-progress-value { background-color: #7cb342; }
 
-progress::-moz-progress-bar { background-color: #CA1F7B; }
+progress::-moz-progress-bar { background-color: #7cb342; }
 
 .progress-container { background-color: transparent; }
 
-.progress-bar { background-color: #CA1F7B; }
+.progress-bar { background-color: #7cb342; }
 
 .bibliography-year { color: #ddd; text-align: right; float: right; }
 
@@ -11194,7 +11193,7 @@ progress::-moz-progress-bar { background-color: #CA1F7B; }
 .bibliography li .author a { color: #3c4858; border-bottom: 1px dashed; }
 .bibliography li .author a:hover { border-bottom-style: solid; text-decoration: none; }
 
-nobr > em { font-weight: bold; font-style: normal; color: #CA1F7B; }
+nobr > em { font-weight: bold; font-style: normal; color: #7cb342; }
 
 body { padding-top: 56px; padding-bottom: 70px; }
 
@@ -11228,7 +11227,7 @@ progress { position: fixed; left: 0; top: 56px; z-index: 10; width: 100%; height
 .project-card .wordpress-icon .icon { margin-right: 0.25rem; }
 .project-card .github-icon { margin-top: 0.5rem; margin-bottom: -1.5rem; margin-left: -0.25rem; margin-right: 0.5rem; padding: 0; }
 .project-card .github-icon .icon { display: block; font-size: 40px; margin-bottom: -0.3em; margin-right: 0.25rem; }
-.project-card .github-icon .stars { display: inline-block; padding: 0.25em 0.4em; font-size: 75%; font-weight: 700; line-height: 1; text-align: center; white-space: nowrap; vertical-align: baseline; border-radius: 0.25rem; transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; background-color: #039be5 !important; color: #fff !important; position: relative; top: -50px; left: 20px; }
+.project-card .github-icon .stars { display: inline-block; padding: 0.25em 0.4em; font-size: 75%; font-weight: 700; line-height: 1; text-align: center; white-space: nowrap; vertical-align: baseline; border-radius: 0.25rem; transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; background-color: #7cb342 !important; color: #fff !important; position: relative; top: -50px; left: 20px; }
 @media (prefers-reduced-motion: reduce) { .project-card .github-icon .stars { transition: none; } }
 a.project-card .github-icon .stars:hover, a.project-card .github-icon .stars:focus { text-decoration: none; }
 .project-card .github-icon .stars:empty { display: none; }
@@ -11321,7 +11320,7 @@ a.project-card .github-icon .stars:hover, a.project-card .github-icon .stars:foc
 
 .red.darken-3 { background-color: #c62828 !important; }
 
-.red.darken-4 { background-color: #ea7bb6 !important; }
+.red.darken-4 { background-color: #b71c1c !important; }
 
 .red.accent-1 { background-color: #ff8a80 !important; }
 
@@ -11675,7 +11674,7 @@ a.project-card .github-icon .stars:hover, a.project-card .github-icon .stars:foc
 
 .rgba-light-green-strong, .rgba-light-green-strong:after { background-color: rgba(139, 195, 74, 0.7); }
 
-.light-green.darken-1 { background-color: #039be5 !important; }
+.light-green.darken-1 { background-color: #7cb342 !important; }
 
 .light-green.darken-2 { background-color: #689f38 !important; }
 
@@ -12063,9 +12062,9 @@ a.project-card .github-icon .stars:hover, a.project-card .github-icon .stars:foc
 
 .disabled, :disabled { pointer-events: none !important; }
 
-a { cursor: pointer; text-decoration: none; color: #CA1F7B; transition: all 0.2s ease-in-out; }
-a:hover { text-decoration: none; color: #CA1F7B; transition: all 0.2s ease-in-out; }
-a.disabled:hover, a:disabled:hover { color: #CA1F7B; }
+a { cursor: pointer; text-decoration: none; color: #007bff; transition: all 0.2s ease-in-out; }
+a:hover { text-decoration: none; color: #0056b3; transition: all 0.2s ease-in-out; }
+a.disabled:hover, a:disabled:hover { color: #007bff; }
 
 a:not([href]):not([tabindex]), a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover { color: inherit; text-decoration: none; }
 
@@ -13592,7 +13591,7 @@ table.table a.btn.btn-black { color: #fff; }
 .navbar.navbar-light .breadcrumb .nav-item .nav-link:hover, .navbar.navbar-light .navbar-nav .nav-item .nav-link:hover { color: rgba(0, 0, 0, 0.7); }
 .navbar.navbar-light .breadcrumb .nav-item.active > .nav-link, .navbar.navbar-light .navbar-nav .nav-item.active > .nav-link { background-color: rgba(0, 0, 0, 0.1); }
 .navbar.navbar-light .breadcrumb .nav-item.active > .nav-link:hover, .navbar.navbar-light .navbar-nav .nav-item.active > .nav-link:hover { color: #000; }
-.navbar.navbar-light .navbar-toggler { color: #000; 
+.navbar.navbar-light .navbar-toggler { color: #000; }
 .navbar.navbar-light form .md-form input { border-bottom: 1px solid #000; }
 .navbar.navbar-light form .md-form input:focus:not([readonly]) { border-color: #4285f4; }
 .navbar.navbar-light form .md-form .form-control { color: #000; }
@@ -14064,7 +14063,7 @@ footer { color: #343a40; background-color: #fdfdfd; }
 
 .card, .list-group-item { background-color: #fdfdfd; }
 
-.news a { color: #CA1F7B; }
+.news a { color: #7cb342; }
 .news a:hover { text-decoration: underline; }
 
 .project-card .card-body { border-top: 1px solid rgba(60, 72, 88, 0.2); }
@@ -14085,7 +14084,7 @@ $nav-height:                    56px;
 /* Set theme color *************************/
 /* #b71c1c; */
 /************************************************************/
-.badge-notify { background: #039be5 !important; }
+.badge-notify { background: #7cb342 !important; }
 
 body { color: #3c4858; background-color: #fdfdfd; -webkit-text-size-adjust: 100%; }
 
@@ -14096,18 +14095,18 @@ body { color: #3c4858; background-color: #fdfdfd; -webkit-text-size-adjust: 100%
 .navbar a { color: #3c4858 !important; }
 
 footer a { color: #fafafa; }
-footer a:hover { color: #039be5; }
+footer a:hover { color: #7cb342; }
 
 .title { font-family: "Roboto Slab", "Times New Roman", serif; }
 
-a { color: #CA1F7B; text-decoration: none; }
+a { color: #7cb342; text-decoration: none; }
 a:hover { text-decoration: none; }
 
 .plain-link .fa { color: #747373; }
 
 .navbar-brand a { color: #f8f9fa !important; }
 
-.navbar-active a { color: #CA1F7B !important; }
+.navbar-active a { color: #7cb342 !important; }
 
 .arrow-icon { color: #90a4ae; background: #90a4ae; background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; display: initial; }
 .arrow-icon:hover { color: #cbd4d9; background: #cbd4d9; background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; text-decoration: none; }
@@ -14133,21 +14132,21 @@ a:hover { text-decoration: none; }
 .wp-icon { color: #21759b; background: #21759b; background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; display: initial; }
 .wp-icon:hover { color: #4aacd8; background: #4aacd8; background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; text-decoration: none; }
 
-.cv h3 { color: #039be5; }
+.cv h3 { color: #7cb342; }
 
 .bibliography .abbr a:hover { background: #ff4444 !important; }
 
-progress { /* Reset the appearance */ -webkit-appearance: none; -moz-appearance: none; appearance: none; /* Get rid of the default border in Firefox/Opera. */ border: none; /* Progress bar container for Firefox/IE10+ */ background-color: transparent; /* Progress bar value for IE10+ */ color: #CA1F7B; }
+progress { /* Reset the appearance */ -webkit-appearance: none; -moz-appearance: none; appearance: none; /* Get rid of the default border in Firefox/Opera. */ border: none; /* Progress bar container for Firefox/IE10+ */ background-color: transparent; /* Progress bar value for IE10+ */ color: #7cb342; }
 
 progress::-webkit-progress-bar { background-color: transparent; }
 
-progress::-webkit-progress-value { background-color: #CA1F7B; }
+progress::-webkit-progress-value { background-color: #7cb342; }
 
-progress::-moz-progress-bar { background-color: #CA1F7B; }
+progress::-moz-progress-bar { background-color: #7cb342; }
 
 .progress-container { background-color: transparent; }
 
-.progress-bar { background-color: #CA1F7B; }
+.progress-bar { background-color: #7cb342; }
 
 .bibliography-year { color: #ddd; text-align: right; float: right; }
 
@@ -14155,7 +14154,7 @@ progress::-moz-progress-bar { background-color: #CA1F7B; }
 .bibliography li .author a { color: #3c4858; border-bottom: 1px dashed; }
 .bibliography li .author a:hover { border-bottom-style: solid; text-decoration: none; }
 
-nobr > em { font-weight: bold; font-style: normal; color: #CA1F7B; }
+nobr > em { font-weight: bold; font-style: normal; color: #7cb342; }
 
 pre, code { font-family: 'Source Code Pro', monospace; font-weight: normal; font-size: 13px; line-height: 1.3em; }
 
@@ -14197,76 +14196,3 @@ pre, code { font-family: 'Source Code Pro', monospace; font-weight: normal; font
 .hljs-emphasis { font-style: italic; }
 
 .hljs-strong { font-weight: bold; }
-
-/*minimum social media icons*/
-/*@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
-
-.socialbtns { 
-    display: block; 
-    font-size: 35px; 
-    margin: 0;
-    padding: 8px;
-}
-
-.socialbtns-icon {
-    width: 20px !important;
-    height: 20px !important;
-}
-
-.socialbtns, .socialbtns ul, .socialbtns li {
-  margin: 0;
-  padding: 1px;
-}
-
-.socialbtns li {
-    list-style: none outside none;
-    display: inline-block;
-}
-
-.socialbtns .fa {
-  color: #000;
-  text-shadow: 1px 1px 0px #fff,
-      1px -1px 0px #fff,
-      -1px 1px 0px #fff,
-      -1px -1px 0px #fff;
-  -webkit-text-shadow: 1px 1px 0px #fff,
-      1px -1px 0px #fff,
-      -1px 1px 0px #fff,
-      -1px -1px 0px #fff;
-  -moz-text-shadow: 1px 1px 0px #fff,
-      1px -1px 0px #fff,
-      -1px 1px 0px #fff,
-      -1px -1px 0px #fff;
-  -o-text-shadow: 1px 1px 0px #fff,
-      1px -1px 0px #fff,
-      -1px 1px 0px #fff,
-      -1px -1px 0px #fff;
-  transition: all ease-out 0.5s;
-  -moz-transition: all ease-out 0.5s;
-  -webkit-transition: all ease-out 0.5s;
-  -o-transition: all ease-out 0.5s;
-}*/
-
-/*.socialbtns .fa:hover {
-    color: #000;
-    text-shadow: 1px 1px 0px #fff,
-            1px -1px 0px #fff,
-            -1px 1px 0px #fff,
-            -1px -1px 0px #fff;
-    -webkit-text-shadow: 1px 1px 0px #fff,
-            1px -1px 0px #fff,
-            -1px 1px 0px #fff,
-            -1px -1px 0px #fff;
-    -moz-text-shadow: 1px 1px 0px #fff,
-            1px -1px 0px #fff,
-            -1px 1px 0px #fff,
-            -1px -1px 0px #fff;
-    -o-text-shadow: 1px 1px 0px #fff,
-            1px -1px 0px #fff,
-            -1px 1px 0px #fff,
-            -1px -1px 0px #fff;
-    transition: all ease 0.5s;
-    -moz-transition: all ease-in 0.5s;
-    -webkit-transition: all ease-in 0.5s;
-    -o-transition: all ease-in 0.5s;
-}*/
