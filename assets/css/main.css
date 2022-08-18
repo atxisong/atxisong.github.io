@@ -1030,7 +1030,7 @@ input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="butto
 
 .navbar-text { display: inline-block; padding-top: 0.5rem; padding-bottom: 0.5rem; }
 
-.navbar-collapse { flex-basis: 100%; flex-grow: 1; align-items: center; }
+.navbar-collapse { flex-basis: 100%; flex-grow: 1; align-items: center; white-space:nowrap;}
 
 .navbar-toggler { padding: 0.25rem 0.75rem; font-size: 1.25rem; line-height: 1; background-color: transparent; border: 1px solid transparent; border-radius: 0.25rem; }
 .navbar-toggler:hover, .navbar-toggler:focus { text-decoration: none; }
@@ -1076,7 +1076,7 @@ input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="butto
 .navbar-expand .navbar-nav .nav-link { padding-right: 0.5rem; padding-left: 0.5rem; }
 .navbar-expand > .container, .navbar-expand > .container-fluid, .navbar-expand > .content { flex-wrap: nowrap; }
 .navbar-expand .navbar-collapse { display: flex !important; flex-basis: auto; }
-.navbar-expand .navbar-toggler { display: none; }
+.navbar-expand .navbar-toggler { display: none;}
 
 .navbar-light .navbar-brand { color: rgba(0, 0, 0, 0.9); }
 .navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus { color: rgba(0, 0, 0, 0.9); }
