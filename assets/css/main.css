@@ -192,7 +192,7 @@ pre code { font-size: inherit; color: inherit; word-break: normal; }
 .container-fluid, .content { width: 100%; padding-right: 15px; padding-left: 15px; margin-right: auto; margin-left: auto; }
 
 /*.row { display: flex; flex-wrap: wrap; margin-right: -15px; margin-left: -15px; white-space:nowrap; }*/
-.row { display: flex; flex-wrap: wrap; margin-right: -15px; margin-left: -15px; white-space:nowrap; }
+.row { display: flex; flex-wrap: wrap; margin-right: -15px; margin-left: -15px; }
 
 .no-gutters { margin-right: 0; margin-left: 0; }
 .no-gutters > .col, .no-gutters > [class*="col-"] { padding-right: 0; padding-left: 0; }
