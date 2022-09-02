@@ -11214,7 +11214,7 @@ progress { position: fixed; left: 0; top: 56px; z-index: 10; width: 100%; height
 
 .profile-img { max-width: 100%; height: auto; width: auto; }
 
-.contact-icon { display: block; font-size: 35px; }
+.contact-icon { display: block; font-size: 25px; }
 
 .news .date { width: 85px; }
 .news .text p, .news .text a { padding-left: .2em; }
