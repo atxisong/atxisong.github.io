@@ -14271,3 +14271,6 @@ pre, code { font-family: 'Source Code Pro', monospace; font-weight: normal; font
     -webkit-transition: all ease-in 0.5s;
     -o-transition: all ease-in 0.5s;
 }*/
+
+/* Temporarily hide Teaching from navigation; remove this rule to restore it. */
+#navbar .nav-link[href="/teaching/"] { display: none !important; }
